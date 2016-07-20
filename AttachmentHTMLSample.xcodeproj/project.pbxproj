@@ -15,6 +15,8 @@
 		DF33B2191D07E4540045E5D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF33B2171D07E4540045E5D1 /* LaunchScreen.storyboard */; };
 		DF33B2241D07E4540045E5D1 /* AttachmentHTMLSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF33B2231D07E4540045E5D1 /* AttachmentHTMLSampleTests.m */; };
 		DF33B22F1D07E4540045E5D1 /* AttachmentHTMLSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF33B22E1D07E4540045E5D1 /* AttachmentHTMLSampleUITests.m */; };
+		DF33B2421D07F3E70045E5D1 /* NSMutableAttributedString+NSMutableAttributedString_HTMLBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = DF33B2411D07F3E70045E5D1 /* NSMutableAttributedString+NSMutableAttributedString_HTMLBase64.m */; };
+		DF33B2451D07F40C0045E5D1 /* NSArray+NSArray_HTMLBody.m in Sources */ = {isa = PBXBuildFile; fileRef = DF33B2441D07F40C0045E5D1 /* NSArray+NSArray_HTMLBody.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		DF33B22A1D07E4540045E5D1 /* AttachmentHTMLSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttachmentHTMLSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF33B22E1D07E4540045E5D1 /* AttachmentHTMLSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttachmentHTMLSampleUITests.m; sourceTree = "<group>"; };
 		DF33B2301D07E4540045E5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF33B2401D07F3E70045E5D1 /* NSMutableAttributedString+NSMutableAttributedString_HTMLBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+NSMutableAttributedString_HTMLBase64.h"; sourceTree = "<group>"; };
+		DF33B2411D07F3E70045E5D1 /* NSMutableAttributedString+NSMutableAttributedString_HTMLBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+NSMutableAttributedString_HTMLBase64.m"; sourceTree = "<group>"; };
+		DF33B2431D07F40C0045E5D1 /* NSArray+NSArray_HTMLBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+NSArray_HTMLBody.h"; sourceTree = "<group>"; };
+		DF33B2441D07F40C0045E5D1 /* NSArray+NSArray_HTMLBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+NSArray_HTMLBody.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		DF33B2081D07E4540045E5D1 /* AttachmentHTMLSample */ = {
 			isa = PBXGroup;
 			children = (
+				DF33B23C1D07F0BE0045E5D1 /* Categories */,
 				DF33B20C1D07E4540045E5D1 /* AppDelegate.h */,
 				DF33B20D1D07E4540045E5D1 /* AppDelegate.m */,
 				DF33B20F1D07E4540045E5D1 /* ViewController.h */,
@@ -138,6 +145,17 @@
 				DF33B2301D07E4540045E5D1 /* Info.plist */,
 			);
 			path = AttachmentHTMLSampleUITests;
+			sourceTree = "<group>";
+		};
+		DF33B23C1D07F0BE0045E5D1 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				DF33B2431D07F40C0045E5D1 /* NSArray+NSArray_HTMLBody.h */,
+				DF33B2441D07F40C0045E5D1 /* NSArray+NSArray_HTMLBody.m */,
+				DF33B2401D07F3E70045E5D1 /* NSMutableAttributedString+NSMutableAttributedString_HTMLBase64.h */,
+				DF33B2411D07F3E70045E5D1 /* NSMutableAttributedString+NSMutableAttributedString_HTMLBase64.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,8 +289,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF33B2111D07E4540045E5D1 /* ViewController.m in Sources */,
+				DF33B2421D07F3E70045E5D1 /* NSMutableAttributedString+NSMutableAttributedString_HTMLBase64.m in Sources */,
 				DF33B20E1D07E4540045E5D1 /* AppDelegate.m in Sources */,
 				DF33B20B1D07E4540045E5D1 /* main.m in Sources */,
+				DF33B2451D07F40C0045E5D1 /* NSArray+NSArray_HTMLBody.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
