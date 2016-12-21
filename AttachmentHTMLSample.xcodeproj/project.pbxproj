@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF26F4311E0A7CEC00E7751E /* NSAttributedString+HTMLFromRange.m in Sources */ = {isa = PBXBuildFile; fileRef = DF26F4301E0A7CEC00E7751E /* NSAttributedString+HTMLFromRange.m */; };
+		DF26F4341E0A7DAA00E7751E /* NSString+HTMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = DF26F4331E0A7DAA00E7751E /* NSString+HTMLEntities.m */; };
+		DF26F4371E0A830100E7751E /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF26F4361E0A830100E7751E /* CoreText.framework */; };
+		DF26F43B1E0A924F00E7751E /* HTMLEntities.plist.html in Resources */ = {isa = PBXBuildFile; fileRef = DF26F43A1E0A924F00E7751E /* HTMLEntities.plist.html */; };
 		DF33B20B1D07E4540045E5D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF33B20A1D07E4540045E5D1 /* main.m */; };
 		DF33B20E1D07E4540045E5D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF33B20D1D07E4540045E5D1 /* AppDelegate.m */; };
 		DF33B2111D07E4540045E5D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF33B2101D07E4540045E5D1 /* ViewController.m */; };
@@ -15,8 +19,6 @@
 		DF33B2191D07E4540045E5D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF33B2171D07E4540045E5D1 /* LaunchScreen.storyboard */; };
 		DF33B2241D07E4540045E5D1 /* AttachmentHTMLSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF33B2231D07E4540045E5D1 /* AttachmentHTMLSampleTests.m */; };
 		DF33B22F1D07E4540045E5D1 /* AttachmentHTMLSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF33B22E1D07E4540045E5D1 /* AttachmentHTMLSampleUITests.m */; };
-		DF33B2421D07F3E70045E5D1 /* NSMutableAttributedString+NSMutableAttributedString_HTMLBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = DF33B2411D07F3E70045E5D1 /* NSMutableAttributedString+NSMutableAttributedString_HTMLBase64.m */; };
-		DF33B2451D07F40C0045E5D1 /* NSArray+NSArray_HTMLBody.m in Sources */ = {isa = PBXBuildFile; fileRef = DF33B2441D07F40C0045E5D1 /* NSArray+NSArray_HTMLBody.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF26F42F1E0A7CEC00E7751E /* NSAttributedString+HTMLFromRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+HTMLFromRange.h"; sourceTree = "<group>"; };
+		DF26F4301E0A7CEC00E7751E /* NSAttributedString+HTMLFromRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+HTMLFromRange.m"; sourceTree = "<group>"; };
+		DF26F4321E0A7DAA00E7751E /* NSString+HTMLEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTMLEntities.h"; sourceTree = "<group>"; };
+		DF26F4331E0A7DAA00E7751E /* NSString+HTMLEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTMLEntities.m"; sourceTree = "<group>"; };
+		DF26F4361E0A830100E7751E /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		DF26F43A1E0A924F00E7751E /* HTMLEntities.plist.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = HTMLEntities.plist.html; sourceTree = "<group>"; };
 		DF33B2061D07E4540045E5D1 /* AttachmentHTMLSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttachmentHTMLSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF33B20A1D07E4540045E5D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DF33B20C1D07E4540045E5D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,10 +61,6 @@
 		DF33B22A1D07E4540045E5D1 /* AttachmentHTMLSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttachmentHTMLSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF33B22E1D07E4540045E5D1 /* AttachmentHTMLSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttachmentHTMLSampleUITests.m; sourceTree = "<group>"; };
 		DF33B2301D07E4540045E5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF33B2401D07F3E70045E5D1 /* NSMutableAttributedString+NSMutableAttributedString_HTMLBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+NSMutableAttributedString_HTMLBase64.h"; sourceTree = "<group>"; };
-		DF33B2411D07F3E70045E5D1 /* NSMutableAttributedString+NSMutableAttributedString_HTMLBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+NSMutableAttributedString_HTMLBase64.m"; sourceTree = "<group>"; };
-		DF33B2431D07F40C0045E5D1 /* NSArray+NSArray_HTMLBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+NSArray_HTMLBody.h"; sourceTree = "<group>"; };
-		DF33B2441D07F40C0045E5D1 /* NSArray+NSArray_HTMLBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+NSArray_HTMLBody.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF26F4371E0A830100E7751E /* CoreText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +89,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF26F4351E0A830000E7751E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF26F4361E0A830100E7751E /* CoreText.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DF33B1FD1D07E4540045E5D1 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +104,7 @@
 				DF33B2221D07E4540045E5D1 /* AttachmentHTMLSampleTests */,
 				DF33B22D1D07E4540045E5D1 /* AttachmentHTMLSampleUITests */,
 				DF33B2071D07E4540045E5D1 /* Products */,
+				DF26F4351E0A830000E7751E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,6 +130,7 @@
 				DF33B2151D07E4540045E5D1 /* Assets.xcassets */,
 				DF33B2171D07E4540045E5D1 /* LaunchScreen.storyboard */,
 				DF33B21A1D07E4540045E5D1 /* Info.plist */,
+				DF26F43A1E0A924F00E7751E /* HTMLEntities.plist.html */,
 				DF33B2091D07E4540045E5D1 /* Supporting Files */,
 			);
 			path = AttachmentHTMLSample;
@@ -150,10 +165,10 @@
 		DF33B23C1D07F0BE0045E5D1 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				DF33B2431D07F40C0045E5D1 /* NSArray+NSArray_HTMLBody.h */,
-				DF33B2441D07F40C0045E5D1 /* NSArray+NSArray_HTMLBody.m */,
-				DF33B2401D07F3E70045E5D1 /* NSMutableAttributedString+NSMutableAttributedString_HTMLBase64.h */,
-				DF33B2411D07F3E70045E5D1 /* NSMutableAttributedString+NSMutableAttributedString_HTMLBase64.m */,
+				DF26F42F1E0A7CEC00E7751E /* NSAttributedString+HTMLFromRange.h */,
+				DF26F4301E0A7CEC00E7751E /* NSAttributedString+HTMLFromRange.m */,
+				DF26F4321E0A7DAA00E7751E /* NSString+HTMLEntities.h */,
+				DF26F4331E0A7DAA00E7751E /* NSString+HTMLEntities.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -263,6 +278,7 @@
 			files = (
 				DF33B2191D07E4540045E5D1 /* LaunchScreen.storyboard in Resources */,
 				DF33B2161D07E4540045E5D1 /* Assets.xcassets in Resources */,
+				DF26F43B1E0A924F00E7751E /* HTMLEntities.plist.html in Resources */,
 				DF33B2141D07E4540045E5D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,10 +305,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF33B2111D07E4540045E5D1 /* ViewController.m in Sources */,
-				DF33B2421D07F3E70045E5D1 /* NSMutableAttributedString+NSMutableAttributedString_HTMLBase64.m in Sources */,
 				DF33B20E1D07E4540045E5D1 /* AppDelegate.m in Sources */,
 				DF33B20B1D07E4540045E5D1 /* main.m in Sources */,
-				DF33B2451D07F40C0045E5D1 /* NSArray+NSArray_HTMLBody.m in Sources */,
+				DF26F4311E0A7CEC00E7751E /* NSAttributedString+HTMLFromRange.m in Sources */,
+				DF26F4341E0A7DAA00E7751E /* NSString+HTMLEntities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +534,7 @@
 				DF33B2351D07E4540045E5D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF33B2361D07E4540045E5D1 /* Build configuration list for PBXNativeTarget "AttachmentHTMLSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +543,7 @@
 				DF33B2381D07E4540045E5D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF33B2391D07E4540045E5D1 /* Build configuration list for PBXNativeTarget "AttachmentHTMLSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +552,7 @@
 				DF33B23B1D07E4540045E5D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
